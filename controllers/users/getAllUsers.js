@@ -8,5 +8,5 @@ const getAllUsers = async (req, res, next) => {
 };
 
 module.exports = {
-  getAllUsers: ctrlWrapper(getAll),
+  getAllUsers: ctrlWrapper(getAllUsers),
 };
