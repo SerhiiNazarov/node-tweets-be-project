@@ -7,7 +7,7 @@ const userSchema = new Schema(
       type: String,
       required: [true, "Name is required"],
     },
-    avatarURL: {
+    avatar: {
       type: String,
     },
     followers: {
